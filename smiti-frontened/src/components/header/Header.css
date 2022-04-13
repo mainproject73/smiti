@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0%;
+}
+
+.header{
+    width: 100%;
+    height:72px;
+    z-index: 1;
+    /* position: fixed; */
+    background-color:peru;
+    color: whitesmoke;  
+    display: flex;
+    align-items: center;
+}
+.head{
+    color: whitesmoke;  
+    flex-grow: 2;
+    width: 150;
+    height:70px;
+    margin-top: 3%;
+    margin-left: 3%;
+    text-align: left;
+   }
+
+.headlinks{
+    padding-right: 50px;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
